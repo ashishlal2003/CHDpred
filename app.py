@@ -38,12 +38,12 @@ def predict():
         input_data = pd.DataFrame(data)
         output = clmodel.predict(input_data)
         predicted_value = int(output[0])
-        # prediction_text = ""
-        # if predicted_value == 1:
-        #     prediction_text = 'You have diabetes.'
-        # else:
-        #     prediction_text = 'You do not have diabetes.'
-        return render_template('home.html', prediction_text=predicted_value)
+        prediction_text = ""
+        if predicted_value == 1:
+            prediction_text = 'You have CHD.'
+        else:
+            prediction_text = 'You do not have CHD.'
+        return render_template('home.html', prediction_text=prediction_text)
     except Exception as e:
         error_message = str(e)
         app.logger.error(error_message)
