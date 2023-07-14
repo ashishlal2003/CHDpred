@@ -1,5 +1,6 @@
 # CHDPred
-Find the video recording here in the root directory itself.
+Find the video recording here in this Drive link: https://drive.google.com/file/d/1pd5_OYsc8uzyb3Iyy87daAW2o1FkO6Wx/view?usp=sharing
+The webapp is hosted on: https://chdpred.onrender.com
 
 ## Guidance Note
 
